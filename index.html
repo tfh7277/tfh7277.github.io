@@ -14,7 +14,13 @@
           <script src="js/html5shiv.js"></script>
           <script src="js/respond.min.js"></script>
         <![endif]-->
-
+<script type="text/javascript">
+    function send(){
+        console.log("works");
+    window.open('https://www.youtube.com/channel/UCIblzyNK4EXxTrzKfYV5e4Q/featured','_blank');
+    }
+    
+    </script>
 </head>
 <body>
 	<!-- ====================================================
@@ -24,7 +30,7 @@
 			<div class="row header-row">
 				<div class="col-md-12">
 					<nav class="navbar navbar-default">
-						<a href="index.html"><img src="img/logo.png" alt="" class="logo"></a>
+						<a href="index.html"><img src="img/LOGO5.png" alt="" class="logo"></a>
 					  <div class="container-fluid">
 					    <!-- Brand and toggle get grouped for better mobile display -->
 					    <div class="navbar-header">
@@ -40,9 +46,11 @@
 					      
 					      <ul class="nav navbar-nav navbar-right">
 					        <li><a href="#sec1">Home</a></li>
-					        <li><a href="#sec2">about me</a></li>
-					        <li><a href="#sec3">my work</a></li>
-					        <li><a href="#sec4">contact us</a></li>
+					        <li><a href="#sec2">about us</a></li>
+					        <li><a href="#sec3">videos</a></li>
+					        <li><a href="#sec4">join us</a></li>
+                              <li><a href="#sec5">contact us</a></li>
+                              
 					        
 					      </ul>
 					    </div><!-- /.navbar-collapse -->
@@ -56,16 +64,16 @@
 	<!-- banner area starts here -->
 	<section class="banner text-center" id="sec1">
 		<div class="container">
+            
 			<div class="row">
-				<h3>Lorem ipsum dolor sit iusmod tempor </h3>
+                <div class="patch">
+				<h1 >Team Flying Hearts</h1>
+               
+				<p>We believe in everyone's talent</p>
+				</div>
+				<br><br><br>
 
-				<h1>incididunt bore</h1>
-
-				<p>Orem ipsum dolor sit amet, consectetur </p>
-				
-				<img src="img/pin.png" alt=""><br>
-
-				<button class="know-more">KNOW MORE</button>
+				<button class="know-more" onclick="send()">TRACK US</button>
 			</div>
 		</div>
 	</section><!-- end of banner section -->
@@ -76,7 +84,7 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 about-heading">
 					<h2>
-						ABOUT ME
+						ABOUT US
 					</h2>
 					<img src="img/daag.png" alt="">
 					
@@ -131,10 +139,8 @@
 	<section class="portfolio text-center" id="sec3">
 		<div class="row portfolio-row">
 			<div class="portfolio-heading">
-				<h2>MY WORK</h2>
+				<h2>VIDEOS</h2>
 				<img src="img/daag.png" alt="">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br><br> 
-				ut labore et dolore magna aliqua.</p>
 			</div>
 
 			<div class="col-md-3 single-portfolio col-sm-6">
@@ -234,39 +240,43 @@
 			</div>
 		</div>
 	</section><!-- end of portfolio section -->
-
-	<section class="contact text-center" id="sec4">
+    
+    <section class="contact text-center" id="sec4">
 		<div class="container">
 			<div class="row">
 				<article class="contact-heading">
-					<h2>CONTACT US</h2>
+					<h2>JOIN US</h2>
 					<img src="img/daag.png" alt="">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua.</p>
+					<p>Feel free to reach out at:<br> email: flyingheartsteam@gmail.com</p>
 				</article>
 			</div>
 		</div>
 	</section><!-- end of contact section -->
 
-	<section class="contact-form">
+	<section class="contact text-center" id="sec5">
 		<div class="container">
 			<div class="row">
-				<div class="form">
-						<form action="contact.php">
-							<div class="sbtn col-md-12 text-center">
-								<input class="name form-input" type="text" placeholder="NAME">
-								<input class="email form-input" type="email" placeholder="EMAIL">
-								<input class="message form-input" type="text" placeholder="MASSAGE">
-								<input  class="submit-btn" type="submit">
-							</div>
-						</form>
-				</div>
+				<article class="contact-heading">
+					<h2>CONTACT US</h2>
+					<img src="img/daag.png" alt="">
+					<p>Feel free to reach out at:<br> email: flyingheartsteam@gmail.com</p>
+				</article>
+			</div>
+		</div>
+	</section><!-- end of contact section -->
+
+	<section>
+		<div class="container">
+			<div class="row">
+               
 			</div>
 		</div>
 	</section>
 
 	<!-- footer starts here -->
 	<footer class="footer text-center">
-		<p>&copy; mostafizur</p>
+        <img src="img/1460300222_Twitter.png"/><img src="img/1460300233_Facebook.png"/><img src="img/1460300239_YouTube.png"/><img src="img/1460300246_Instagram.png"/>
+		<p>&copy; TeamFlyingHearts</p>
 	</footer>
 
 	<!-- script tags
